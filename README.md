@@ -25,9 +25,7 @@ After reaching the project directory you have to run the following the command.
    ````
    
  # Admin Login First Time 
- pass: iamironman
-
-#### If you want to make an employee as admin then use the secret key : monkey.
+ If you want to make an employee as admin then use the secret key : monkey.
 
 ### Features
 
