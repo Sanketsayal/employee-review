@@ -15,7 +15,7 @@
 .reviewContainer{
     margin-top: 30px;
     display: flex;
-    justify-content: center;
+    align-items: center;
     border: 1px solid black;
     flex-direction: column;
     width: 40%;
@@ -33,12 +33,15 @@
 .submitButtons{
     margin-left: 25%;
     width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px ;
 }
 /* Submit buttons  */
 .submitButtons button{
     background-color: black;
     color: white;
-    width: 10vw;
+    width: 5vw;
     height: 35px;
     border: 1px solid black;
     border-radius: 20px;
