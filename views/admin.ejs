@@ -15,9 +15,9 @@
 
             <form action="/admin/setReviewes" method="POST" class="mt-1 card-body">
                 <div>
-                    <h5>Set Reviewer</h5> 
+                    <h5>Reviewer</h5> 
                     <select class="form-select form-select-lg mb-3" aria-label="Default select example" name="sender">
-                        <option selected>Sender</option>
+                        <option selected>Reviewer</option>
                         <% for(let i = 0; i<employe.length ; i++){ %>
                             
                             <option value= <%= employe[i].id %> > <%= employe[i].name %> </option>
@@ -27,9 +27,9 @@
                 </div>
 
                 <div class="reviewee">
-                    <h5>Select the recipent Employee</h5>
+                    <h5>Person to be Reviewed</h5>
                     <select class="form-select form-select-lg mb-3" aria-label="Default select example" name="reciver">
-                        <option selected>Reciver</option>
+                        <option selected>Reviewed Person</option>
                         <% for(let i = 0; i<employe.length ; i++){ %>
                         
                             <option value= <%= employe[i].id %> > <%= employe[i].name %> </option>

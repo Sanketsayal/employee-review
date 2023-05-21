@@ -13,6 +13,8 @@
     height: 50vh;
     width: 40vw;
     border: 1px solid black;
+    box-shadow: 5px 10px 10px grey;
+    border-radius: 10px;
 }
 /* The main container is divided into two part */
 .companyLogo{ 
@@ -23,6 +25,7 @@
     align-items:center;
     height: 100%;
     width: 40%;
+    border-radius: 10px;
 }
 /* Company Logo,  */
 .companyLogo h1{
