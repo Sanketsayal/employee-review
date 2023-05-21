@@ -22,6 +22,8 @@ const MongoStore = require('connect-mongo');
 const flash = require('connect-flash'); 
 const flashMiddleWare = require('./config/flashMiddleware');
 
+require('dotenv').config();
+
 // For getting the output from req.body(it will parse the upcoming request to String or Arrays).
 app.use(bodyParser.urlencoded({extended:false}));
 // For using the file in assets folder.
@@ -44,7 +46,7 @@ app.use(session({
         maxAge: (1000 * 60 * 100)
     },
     store: MongoStore.create({
-        mongoUrl: 'mongodb+srv://whiteWolff:praduman@cluster0.an8uy3k.mongodb.net/ERS?retryWrites=true&w=majority',
+        mongoUrl: process.env.mongo ,
         autoRemove: 'disabled'
     },
         (err) => {
