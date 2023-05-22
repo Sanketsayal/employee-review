@@ -1,7 +1,5 @@
 # Employee-Review-System
 A full stack, app used for reviewing employee.
-Hoisted Link : https://employereviewsystem.onrender.com
-
 
 ### Description
 
@@ -25,8 +23,9 @@ After reaching the project directory you have to run the following the command.
         npm install 
         npm start || nodemon index.js
    ````
-
-#### If you want to make an employee as admin then use the secret key : monkey.
+   
+ # Admin Login First Time 
+ If you want to make an employee as admin then use the secret key : iamironman.
 
 ### Features
 
@@ -34,25 +33,23 @@ After reaching the project directory you have to run the following the command.
   
   
   # HomePage / Admin View
-  ![ERSAdminView](https://user-images.githubusercontent.com/66240716/232205244-793cf6dd-d3a4-421c-a8bd-c4368fbac1b5.png)
+ ![Screenshot (60)](https://github.com/Sanketsayal/employee-review/assets/57364941/9e36a11f-bb0f-4a22-bb08-44e958852102)
+
   
   # Home page / Employee view
-  ![ERSEmploye](https://user-images.githubusercontent.com/66240716/232205272-389d5bf8-75d2-4030-9e42-b95649e44d83.png)
-  
-  # Sign-Up
-  ![ErsSignUp](https://user-images.githubusercontent.com/66240716/232205283-4b90e28a-4a6d-4bca-b217-d9a016ab49dc.png)
+ ![Screenshot (61)](https://github.com/Sanketsayal/employee-review/assets/57364941/ea61bcd9-225b-405d-8081-2fab11cf0b2d)
+
 
   # Sign-In
-  ![ERSSignIn](https://user-images.githubusercontent.com/66240716/232205296-b1aa2aff-994b-408c-97ae-ce634fdb8234.png)
-
-  # Forget Password
-  ![ERSforgetPass](https://user-images.githubusercontent.com/66240716/232205317-9ff9fb7a-d6e1-41ef-a459-964215ad2bcc.png)
+ ![Screenshot (59)](https://github.com/Sanketsayal/employee-review/assets/57364941/3e671d84-ece8-47bc-af9b-6978d2176e06)
   
   # Assign Task
-  ![ERSAssign](https://user-images.githubusercontent.com/66240716/232205361-4ac255bd-3470-4c62-af2e-41645d516daf.png)
+  ![Screenshot (62)](https://github.com/Sanketsayal/employee-review/assets/57364941/e2517a23-6719-4c78-bce8-846bdfa09d3a)
+
 
   # Employee List
-  ![ERSEmployeView](https://user-images.githubusercontent.com/66240716/232205392-1f5e173e-549d-4601-99d4-f70cf9d00756.png)
+![Screenshot (63)](https://github.com/Sanketsayal/employee-review/assets/57364941/6f7f0e90-d917-41db-8db7-90a90decaab9)
+
 
   
 
